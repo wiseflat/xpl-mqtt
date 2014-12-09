@@ -1,6 +1,6 @@
-var wtlogger = require("./lib/wt-xplmqtt");
+var xplmqtt = require("./lib/wt-xplmqtt");
 
-var wt = new wtlogger(null, {
+var wt = new xplmqtt(null, {
 	xplSource: 'bnz-wtlogger.wiseflat',
         mqtt_ip: '172.16.2.6',
         mqtt_port: '1883'
@@ -18,4 +18,3 @@ wt._init(function(error, xpl) {
                 
         });
 });
-
