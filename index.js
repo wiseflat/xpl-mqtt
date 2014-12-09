@@ -1,4 +1,4 @@
-var wtlogger = require("./lib/wt-logger");
+var wtlogger = require("./lib/wt-xplmqtt");
 
 var wt = new wtlogger(null, {
 	xplSource: 'bnz-wtlogger.wiseflat',
@@ -6,10 +6,16 @@ var wt = new wtlogger(null, {
         mqtt_port: '1883'
 });
 
-wt.init(function(error, xpl) {
+wt._init(function(error, xpl) {
+
 	if (error) {
 		console.error(error);
 		return;
 	}
+        
+        xpl.on("xpl:homeeasy.basic", function(message) {
+		console.log("Receive message ", message);
+                
+        });
 });
 
