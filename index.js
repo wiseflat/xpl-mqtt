@@ -15,6 +15,12 @@ wt._init(function(error, xpl) {
         
         xpl.on("xpl:homeeasy.basic", function(message) {
 		console.log("Receive message ", message);
-                
+                wt._xpl_homeeasy_basic(message);
+        });
+        
+        xpl.on("xpl:sensor.basic", function(message) {
+		console.log("Receive message ", message);
+                wt._xpl_sensor_basic(message);
         });
 });
+
