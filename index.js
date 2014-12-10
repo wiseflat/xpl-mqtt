@@ -42,10 +42,6 @@ wt._init(function(error, xpl) {
                 wt._xpl_elro_basic(message);
         });
         
-        xpl.on("xpl:elro.basic", function(message) {
-                wt._xpl_elro_basic(message);
-        });
-        
         xpl.on("xpl:energy.shomes", function(message) {
                 wt._xpl_energy_shomes(message);
         });
