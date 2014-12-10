@@ -10,9 +10,9 @@
   "keywords": [
     "XPL","mqtt"
   ],
-  "repository": { "type": "git", "url": "https://github.com/wiseflat/xpl-rfxtrx.git" },
+  "repository": { "type": "git", "url": "https://github.com/wiseflat/xpl-mqtt.git" },
   "author": "Mathieu Garcia",
   "license": "GPL",
   "readmeFilename": "README.md",
-  "homepage": "https://github.com/wiseflat/xpl-rfxtrx"
+  "homepage": "https://github.com/wiseflat/xpl-mqtt"
 }
