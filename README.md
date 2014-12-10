@@ -1,4 +1,4 @@
-wt-xplmqtt
+xpl-mqtt
 ==========
 
-xPL gateway to mqtt for the wiseflat project
+xPL gateway to mqtt

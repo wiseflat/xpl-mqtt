@@ -1,14 +1,14 @@
 {
-  "name": "wt-logger",
+  "name": "xpl-mqtt",
   "version": "0.1.0",
-  "description": "xPL logger for the wiseflat project",
-  "main": "./lib/wt-logger.js",
+  "description": "xPL to mqtt",
+  "main": "./lib/xpl-mqtt.js",
   "dependencies": {
     "xpl-api": "~1.0.12",
     "mqtt": "~0.3.13"
   },
   "keywords": [
-    "XPL","wiseflat"
+    "XPL","mqtt"
   ],
   "repository": { "type": "git", "url": "https://github.com/wiseflat/xpl-rfxtrx.git" },
   "author": "Mathieu Garcia",

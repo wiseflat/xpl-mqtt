@@ -1,7 +1,7 @@
-var xplmqtt = require("./lib/wt-xplmqtt");
+var xplmqtt = require("./lib/xpl-mqtt");
 
 var wt = new xplmqtt(null, {
-	xplSource: 'bnz-wtlogger.wiseflat',
+	xplSource: 'bnz-mqtt.wiseflat',
         mqtt_ip: '172.16.2.6',
         mqtt_port: '1883'
 });
